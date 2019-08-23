@@ -8,16 +8,16 @@ spring:
     suffix: .html
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/zhihu?useUnicode=true&characterEncoding=utf8&useSSL=false
-    username: 用户名
-    password: 密码
+    username: # 用户名
+    password: # 密码
   redis:
-    host: 主机
-    port: 端口
+    host: # 主机
+    port: # 端口
   mail:
-    host: 邮件服务器
-    username: 邮件地址
-    password: 授权码
-    default-encoding: UTF-8
+    host: # 邮件服务器
+    username: # 邮件地址
+    password: # 授权码
+    default-encoding: # UTF-8
     properties:
       main:
         smtp:
